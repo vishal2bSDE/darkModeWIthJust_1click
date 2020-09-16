@@ -1,0 +1,39 @@
+.dark-mode{
+    filter: invert(100%);
+}
+
+body{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+}
+.container-1{
+    border: 1rem solid rgb(26, 148, 42);
+    border-radius: 5%;
+    width: 90%;
+    height: 100%;
+    margin : auto auto;
+    display: flex;
+    align-items: center;
+}
+.container-2{
+    border: 1rem solid rgb(48, 26, 148);
+    border-radius: 5%;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.container-3{
+    border: 1rem solid rgb(148, 75, 26);
+    border-radius: 5%;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+h3, h2, h1{
+    margin: auto;
+}
